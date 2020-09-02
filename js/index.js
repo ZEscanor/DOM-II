@@ -61,7 +61,7 @@ const moreZ = mousey.getElementsByTagName("p")
             var y = Math.floor(Math.random() * 32);
             var z = Math.floor(Math.random() * 32);
             var bgColor = "rgb(" + x + "," + y + "," + z + ")";
-            setTimeout(funny(), 100000);
+            setTimeout(funny(), 100);
       document.body.style.background =  bgColor;
  });
 
